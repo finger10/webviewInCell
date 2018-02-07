@@ -15,6 +15,9 @@
 		C97C3B4F202A848C006D17B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C3B4E202A848C006D17B1 /* main.m */; };
 		C97C3B59202A848C006D17B1 /* WebViewInCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C3B58202A848C006D17B1 /* WebViewInCellDemoTests.m */; };
 		C97C3B64202A848C006D17B1 /* WebViewInCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C3B63202A848C006D17B1 /* WebViewInCellDemoUITests.m */; };
+		C97C3B74202A8527006D17B1 /* DIYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C3B72202A8527006D17B1 /* DIYTableViewCell.m */; };
+		C97C3B75202A8527006D17B1 /* DIYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C3B73202A8527006D17B1 /* DIYTableViewCell.xib */; };
+		C97C3B78202A8971006D17B1 /* HYBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C3B77202A8971006D17B1 /* HYBTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		C97C3B5F202A848C006D17B1 /* WebViewInCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewInCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97C3B63202A848C006D17B1 /* WebViewInCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewInCellDemoUITests.m; sourceTree = "<group>"; };
 		C97C3B65202A848C006D17B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97C3B71202A8527006D17B1 /* DIYTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIYTableViewCell.h; sourceTree = "<group>"; };
+		C97C3B72202A8527006D17B1 /* DIYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIYTableViewCell.m; sourceTree = "<group>"; };
+		C97C3B73202A8527006D17B1 /* DIYTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIYTableViewCell.xib; sourceTree = "<group>"; };
+		C97C3B76202A8971006D17B1 /* HYBTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBTestModel.h; sourceTree = "<group>"; };
+		C97C3B77202A8971006D17B1 /* HYBTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				C97C3B40202A848C006D17B1 /* AppDelegate.m */,
 				C97C3B42202A848C006D17B1 /* ViewController.h */,
 				C97C3B43202A848C006D17B1 /* ViewController.m */,
+				C97C3B71202A8527006D17B1 /* DIYTableViewCell.h */,
+				C97C3B72202A8527006D17B1 /* DIYTableViewCell.m */,
+				C97C3B73202A8527006D17B1 /* DIYTableViewCell.xib */,
+				C97C3B76202A8971006D17B1 /* HYBTestModel.h */,
+				C97C3B77202A8971006D17B1 /* HYBTestModel.m */,
 				C97C3B45202A848C006D17B1 /* Main.storyboard */,
 				C97C3B48202A848C006D17B1 /* Assets.xcassets */,
 				C97C3B4A202A848C006D17B1 /* LaunchScreen.storyboard */,
@@ -240,6 +253,7 @@
 			files = (
 				C97C3B4C202A848C006D17B1 /* LaunchScreen.storyboard in Resources */,
 				C97C3B49202A848C006D17B1 /* Assets.xcassets in Resources */,
+				C97C3B75202A8527006D17B1 /* DIYTableViewCell.xib in Resources */,
 				C97C3B47202A848C006D17B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +281,8 @@
 			files = (
 				C97C3B44202A848C006D17B1 /* ViewController.m in Sources */,
 				C97C3B4F202A848C006D17B1 /* main.m in Sources */,
+				C97C3B74202A8527006D17B1 /* DIYTableViewCell.m in Sources */,
+				C97C3B78202A8971006D17B1 /* HYBTestModel.m in Sources */,
 				C97C3B41202A848C006D17B1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
